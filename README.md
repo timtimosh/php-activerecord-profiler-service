@@ -1,4 +1,4 @@
-#ActiveRecord
+# PHP Silex2 ActiveRecordProfilerService
 PHP ActiveRecordProfilerService for Silex2. 
 Actualy for using it you must install php activerecord service provider https://packagist.org/packages/timosh/php-activerecord-service-provider
 (it implements phpactiverecord.org to you profject) awcose for using profiler you have to install silex profiler and twig.
