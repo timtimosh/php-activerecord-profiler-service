@@ -1,10 +1,12 @@
 {
     "name": "timosh/php-activerecord-profiler-service",
     "description": "install this to show sql queries  in silex profiler",
+    "keywords": ["silex2", "php-activerecord", "silex2 profiler", "php-activerecord profiler"],
+    "license": "MIT",
     "require": {
-        "silex/silex": "2",
-        "silex/web-profiler": "2",
-        "twig/twig": "2",
+        "silex/silex": "~2.0",
+        "silex/web-profiler": "^2.0",
+        "twig/twig": "~1.0",
         "symfony/twig-bridge": "^3.1",
         "php-activerecord/php-activerecord": "1.1",
         "timosh/php-activerecord-service-provider" : "^1.0"
@@ -14,5 +16,10 @@
             "name": "timosh",
             "email": "mrtimosh@gmail.com"
         }
-    ]
+    ],
+     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
